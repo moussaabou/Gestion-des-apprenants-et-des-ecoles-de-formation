@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto' , sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/background.jpg);
+    background-position:center;
+    background-size: cover;
+    padding-left: 8% ;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12% ;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li {
+    list-style: none ;
+    display: inline-block;
+    margin: 60px ;
+    transition: 0.2s;
+}
+nav ul li a:hover{
+    background-color: rgb(161, 155, 155);
+}
+nav ul li a{
+ text-decoration: none;
+ font: size 13px;;
+ color: #fff;
+ padding: 10px; 
+ border-radius:300px ;  
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50% ;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+p{
+  color: #fff;
+  font-size: 12px ;  
+  line-height: 15px;
+}
+h4{
+    color: #fff;
+ 
+}
+button {
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px  0;
+    background: #fff;
+    border: 0;
+    border-radius:25px ;
+    outline: none;
+    margin-top: 30px;
+}
+button a{
+    text-decoration: none;
+    size: 160px;
+    color: #000;
+    font-size: 25px;;
+}
+
+.card{
+   width: 200px;
+   height: 230px;
+   display: inline-block;
+   border-radius: 10px;
+   padding: 15px 25px ;
+   box-sizing: border-box;
+   cursor: pointer;
+   margin:10px 15px;
+   background-position: center;
+   background-size: cover;
+   transition: transform 0.5s;
+}
+.card1{   background-image: url(image/pic-1.jpg);
+}
+.card2{   background-image: url(image/pic-2.jpg);
+}
+.card3{   background-image: url(image/pic-3.jpg);
+}
+.card4{   background-image: url(image/pic-4.jpg);
+}
+.card:hover{
+    transform: translateY(-10px) ;
+}
+h5{
+  color: #fff;
+    text-shadow: 0 0 25px;
+}
+.card p{
+    text-shadow: 0 0 25px #000;
+    font-size: 8px;
+}
+.rr{
+    align-items: center;
+}
+/*  -----------------2 partei ---------------*/
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+}
+.course h1{
+    color: #000;
+    font-size: 36px;
+    font-weight: 600;
+}
+.course p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row2{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.1s;
+}
+.row2 h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+@media(max-width : 700px){
+    .row2{
+        flex-direction: column;
+    }
+}
+@media(max-width : 1000px){
+    .row{
+        flex-direction: column;
+    }
+}
+/*-----------------footer-----------*/
+.footer{
+    color: #000;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.footer p{ color: #444;}
+.icons .fa{
+    color: #444;
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 10px 0;
+}
